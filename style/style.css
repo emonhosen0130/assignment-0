@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    height: 6940px;
+}
+
+#icon {
+    /* margin-right: 20px; */
+}
+
+.hedding {
+    display: flex;
+    padding: 50px 250px;
+
+}
+
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+.list {
+    /* margin: 0 30px; */
+    /* background-color: #424244;
+    margin-top: -900px; */
+}
+
+.monile-menu {
+    margin-top: 0px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424244;
+}
+
+.home {
+    color: #FF5400;
+}
+
+#trevel {
+    color: #FF5400;
+}
+
+.banner {
+    background-image: url(../Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    margin-left: 400px;
+}
+
+.banner-content {
+    text-align: center;
+
+}
+
+#banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.tik-kora {
+    display: flex;
+    text-align: center;
+    margin-top: 280px;
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    /* background: #FFF; */
+    gap: 20px;
+    
+}
+
+.btn-primary {
+    cursor: pointer;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: 0;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .menu-btn {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .hedding {
+        display: flex;
+        padding: 0;
+        display: grid;
+    }
+
+    #icon>#ex {
+        display: flex;
+    }
+
+    nav,
+    .tik-kora,
+    ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .banner>.tik-kora {
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-left: 0px;
+    }
+
+    .banner {
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+        margin-left: 0px;
+
+    }
+
+    .tik-kora {
+        margin-top: 0px;
+       height: 50px;
+    }
+
+
+    .list {
+
+        /* width: 100%; */
+        /* height: 100vh; */
+        justify-content: center;
+        /* background-color: #dbd3cf; */
+        gap: 5px;
+        display: none;
+    }
+
+    .list li {
+        margin: 30px auto;
+    }
+}
