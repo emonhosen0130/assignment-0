@@ -134,11 +134,13 @@ nav li a {
     /* border: 2px solid tomato; */
     margin-left: 300px;
 }
-.our-popukar{
-   color:  rgba(19, 19, 24, 0.70);
-   font-size: 16px;
-   font-weight: 400
+
+.our-popukar {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400
 }
+
 .Popular-title {
     color: #131318;
     text-align: center;
@@ -149,22 +151,125 @@ nav li a {
     line-height: normal;
     margin-bottom: 20px;
 }
-.ditels{
+
+.ditels {
     padding-left: 50px;
     margin-bottom: 40px;
 }
-#read{
 
-}
-#dolor{
+#read {}
+
+#dolor {
     margin-bottom: 20px;
 }
-#amet{
+
+#amet {
     margin-bottom: 25px;
 }
-.gap-deo{
+
+.gap-deo {
     margin-bottom: 25px;
 }
+
+.destination {}
+
+#desti {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+#sit {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.des-content {
+    text-align: center;
+}
+
+.tuore-place-img {
+    margin-left: 200px;
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.malaindo {
+    display: flex;
+}
+
+#maldi {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 300px;
+    /* margin-top: 20px; */
+}
+
+#indo {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+    /* margin-right: 250px; */
+    margin-left: 500px;
+}
+
+#sri {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+#no {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+#ka {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+#ban {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+#dar {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 350px;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:600px) {
     .menu-btn {
@@ -188,17 +293,24 @@ nav li a {
         flex-direction: column;
         padding: 0;
     }
-    .Popular-Tours{
+
+    .Popular-Tours {
         flex-direction: column;
     }
+
     .Popular-content {
         width: 450px;
         height: 300px;
         margin-left: 10px;
     }
-    .popular-img{
+
+    .popular-img {
         margin-top: 400px;
+        width: 335px;
+        height: 342px;
+        flex-shrink: 0;
     }
+
     .banner>.tik-kora {
         width: 287px;
         padding: 16px;
@@ -235,4 +347,14 @@ nav li a {
     .list li {
         margin: 30px auto;
     }
+
+    .tuore-place-img,
+    .malaindo {
+        flex-direction: column;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin-left: 0px;
+    }
+
 }
