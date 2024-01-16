@@ -33,7 +33,7 @@ nav>ul {
 }
 
 .list {
-    /* margin: 0 30px; */
+    /* margin:20px 200px; */
     /* background-color: #424244;
     margin-top: -900px; */
 }
@@ -63,7 +63,7 @@ nav li a {
 }
 
 .banner {
-    background-image: url(../Group\ 13\ \(1\)\ \(1\).png);
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     width: 1170px;
     height: 500px;
     margin-left: 400px;
@@ -96,7 +96,7 @@ nav li a {
     border-radius: 20px;
     /* background: #FFF; */
     gap: 20px;
-    
+
 }
 
 .btn-primary {
@@ -108,6 +108,7 @@ nav li a {
     background: #FF5400;
     color: #FFF;
     border: 0;
+
 }
 
 .menu-btn {
@@ -120,8 +121,50 @@ nav li a {
     display: none;
 }
 
+.Popular-Tours {
+    display: flex;
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
 
+.Popular-content {
+    width: 700px;
+    height: 700px;
+    /* border: 2px solid tomato; */
+    margin-left: 300px;
+}
+.our-popukar{
+   color:  rgba(19, 19, 24, 0.70);
+   font-size: 16px;
+   font-weight: 400
+}
+.Popular-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.ditels{
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+#read{
 
+}
+#dolor{
+    margin-bottom: 20px;
+}
+#amet{
+    margin-bottom: 25px;
+}
+.gap-deo{
+    margin-bottom: 25px;
+}
 
 @media screen and (max-width:600px) {
     .menu-btn {
@@ -145,7 +188,17 @@ nav li a {
         flex-direction: column;
         padding: 0;
     }
-
+    .Popular-Tours{
+        flex-direction: column;
+    }
+    .Popular-content {
+        width: 450px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    .popular-img{
+        margin-top: 400px;
+    }
     .banner>.tik-kora {
         width: 287px;
         padding: 16px;
@@ -165,7 +218,7 @@ nav li a {
 
     .tik-kora {
         margin-top: 0px;
-       height: 50px;
+        height: 50px;
     }
 
 
